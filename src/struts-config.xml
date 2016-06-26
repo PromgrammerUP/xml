@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<struts-config>
+	<form-beans>
+		<form-bean name="studentForm" type="book4.StudentForm"/>
+		<form-bean name="personForm" type="book4.PersonForm"/>
+		<form-bean name="petForm" type="book4.PetForm"/>
+	</form-beans>
+	<global-forwards>
+		<forward name="list" path="/list.jsp" redirect="false"/>
+		<forward name="showall" path="/studentAction.do" redirect="true"/>
+	</global-forwards>
+	
+	<action-mappings>
+		<action name="studentForm" path="/studentAction" scope="request" type="book4.StudentAction" validate="false"/>
+		<action name="studentForm" path="/myAction" scope="request" type="book4.StudentAction" validate="false">
+			<forward name="show" path="/studentAction.do" redirect="true"/>
+		</action>
+	</action-mappings>
+</struts-config>

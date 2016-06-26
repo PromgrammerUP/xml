@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persons>
+	<race skin="black">
+		<!-- 注释 -->
+		<person>
+			<id>1001</id>
+			<name>张三</name>
+			<age>20</age>
+			<sex>male</sex>
+			<favers>
+				<faver>踢球</faver>
+				<faver>短跑</faver>
+				<faver>篮球</faver>
+			</favers>
+		</person>
+		<person>
+			<id>1002</id>
+			<name>普斯</name>
+			<age>25</age>
+			<sex>male</sex>
+			<favers>
+				<faver>青蛙游泳</faver>
+				<faver>自由式</faver>
+			</favers>
+		</person>
+	</race>
+	<race skin="white">
+		<!-- 注释 -->
+		<person>
+			<id>1003</id>
+			<name>柴斯基</name>
+			<age>25</age>
+			<sex>male</sex>
+			<favers>
+				<faver>跳水一般</faver>
+				<faver>撑杆跳</faver>
+				<faver>开车</faver>
+			</favers>
+		</person>
+		<person>
+			<id>1004</id>
+			<name>普罗米修斯</name>
+			<age>35</age>
+			<sex>male</sex>
+			<favers>
+				<faver>偷火种</faver>
+				<faver>玩火</faver>
+			</favers>
+		</person>
+	</race>
+	<race skin="yellow">
+		<!-- 注释 -->
+		<person>
+			<id>1006</id>
+			<name>女娲</name>
+			<age>20</age>
+			<sex>female</sex>
+			<favers>
+				<faver>体操</faver>
+				<faver>跳水</faver>
+			</favers>
+		</person>
+		<person>
+			<id>1006</id>
+			<name>西王母</name>
+			<age>15</age>
+			<sex>female</sex>
+			<favers>
+				<faver>乒乓球</faver>
+				<faver>射箭</faver>
+			</favers>
+		</person>
+	</race>
+</persons>

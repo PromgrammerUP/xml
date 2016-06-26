@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students>
+	<student>
+		<name>张三</name>
+		<age>20</age>
+		<sex>male</sex>
+		<subjects>
+			<subject>
+				<name>数学</name>
+				<score>80</score>
+			</subject>
+			<subject>
+				<name>舞蹈</name>
+				<score>50</score>
+			</subject>
+		</subjects>
+	</student>
+	<student>
+		<name>李四</name>
+		<age>15</age>
+		<sex>female</sex>
+		<subjects>
+			<subject>
+				<name>数学</name>
+				<score>75</score>
+			</subject>
+			<subject>
+				<name>舞蹈</name>
+				<score>100</score>
+			</subject>
+		</subjects>
+	</student>
+</students>
